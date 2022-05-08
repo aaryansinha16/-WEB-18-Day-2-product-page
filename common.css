@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+}
+#container>div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.name{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+#addToCart{
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    background-color: rgb(6, 167, 6);
+    border: transparent;
+    border-radius: 15px;
+}
+#addToCart:hover{
+    background-color: green;
+}
+.strikeOff{
+    text-decoration: line-through;
+}
+#container+button{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(88, 88, 247);
+    border: none;
+    border-radius: 15px;
+}
+button>a{
+    color: white;
+    text-decoration: none;
+}
